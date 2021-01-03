@@ -1,1 +1,85 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <link href="css/layout.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway|Merriweather">
+        <script src="https://kit.fontawesome.com/8c7522ee26.js" crossorigin="anonymous"></script>  
+        <title>Tara E. Johnson's Portfolio</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <aside class="sidebar">
+                <h1 class="name_header">Tara E. Johnson</h1>
+                <div class="main_image">
+                    <img src="images\fullsizeoutput_ef9.jpeg" alt="Portrait" id="portrait">
+                    <figcaption>Photo by Joseph Sibilia-Young</figcaption>
+                </div>
+                <nav>
+                    <ul class="main_nav">
+                        <li><a href="#intro" id="about">About</a></li>
+                        <li><a href="#projects_header" id="projects">Projects</a></li>
+                        <li><a href="#contact_header" id="contact">Contact</a></li>
+                    </ul>
+                    <ul class="social_links">
+                        <li><a href="https://www.linkedin.com/in/tara-e-johnson-a92a76201/" id="linkedin"><i class="fab fa-linkedin"></i></a></li>
+                        &nbsp;&nbsp;
+                        <li><a href="https://github.com/taraejohnson" id="github"><i class="fab fa-github-square"></i></a></li>
+                        &nbsp;&nbsp;
+                        <li><a href="mailto:taraest@gmail.com" id="email"><i class="fas fa-envelope-square"></i></a></li>
+                    </ul>  
+                </nav>
+            </aside>
+            <div class="main_content">
+                <section class="main_content_text">  
+                    <p class="intro" id="intro">Hi, I'm Tara,</p>
+                    <p>a full stack software developer based in Columbus, Ohio.</p>
+                    <p>I'm trained in literature and poetry and was attracted to coding because, like poetry, it requires an attention to detail and patterns, making connections between parts, and exploring the most effective and efficient ways to do or say something.</p>
+                    <p>My earlier professional background is in libraries and bookselling, and I'm especially interested in tech in libraries, publishing, and literature. Some of my other interests include letterpress printing and printmaking, translation, my dog and houseplants, and PC gaming.</p>
+                    <p>Get in touch if you're looking to add a creative and driven problem-solver to your team!</p>
+                    <i class="fas fa-chevron-down"></i>
+                </section>       
+                <section class="projects_content">
+                    <h2 id="projects_header">My Projects</h2>
+                    <article id="pet_shelter">
+                        <a href="https://github.com/taraejohnson/fortune-teller" id="shelter_link">Virtual Pet Shelter</a>
+                        <p>A Java console app that allows a user to interact with and adopt or surrender pets to a virtual shelter. Shelter features organic and robotic pets. Game begins with pets inspired by the game Hades (Supergiant Games).</p>
+                        <img src="images\shelter-capture3.PNG" alt="Screenshot of virtual pet shelter app" id="shelter_pic">
+                        <p>Skills used: Java, Object-Oriented Programming (OOP), Test-Driven Design (TDD), IntelliJ, Git, Github</p>
+                    </article>
+                    <article id="virtual_pet">
+                        <a href="https://github.com/taraejohnson/virtual-pet-tara-johnson" id="pet_link">Virtual Pet</a>
+                        <p>A Java console app that allows a user to interact with a virtual pet--in this case, a cute and whimsical dragon, represented with ASCII art. Inside a game loop, the player takes care of the pet's basic needs with choices and user input.</p>
+                        <img src="images\dragon-capture3.png" alt="Screenshot of virtual pet in IntelliJ console" id="vpet_pic">
+                        <p>Skills used: Java, Object-Oriented Programming (OOP), IntelliJ, Git, Github</p>
+                    </article>
+                    <article id="fortune">
+                        <a href="https://github.com/taraejohnson/fortune-teller" id="fortune_link">Fortune Teller Game</a>
+                        <p>A Java console app that generates a fortune based on user input.</p>
+                        <img src="images\fortune-capture.PNG" alt="Screenshot of fortune teller game in console" id="fortune_pic">
+                        <p>Skills used: Java, IntelliJ, Git, Github</p>
+                    </article>
+                    <i class="fas fa-chevron-down" id="section_arrow_last"></i>
+                </section>
+                <section class="contact_content">
+                    <h2 id="contact_header">Contact Me</h2>
+                    <label for="fname">Your name:</label><br>
+                    <input type="text"><br>
+                    <label for="fname">Your email address:</label><br>
+                    <input type="text"><br>
+                    <label for="fname">Message:</label><br>
+                    <input type="textarea"><br>
+                    <input type="submit">    
+                    </form>
+                </section>
+            </div>
+        </div>
+        <footer>©Tara E. Johnson, 2020-21</footer>
+    </body>
+</html>
+
