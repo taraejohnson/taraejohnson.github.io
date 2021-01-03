@@ -3,84 +3,105 @@
 * {
     font-family: 'Libre Baskerville', 'Times New Roman', serif;
 }
+
 body {
-    background-image: url(\images\mr-cup-fabien-barral-zFz3jThypsA-unsplash.png);
-    background-color: #CFC7D2;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #E0D0C1;
 }
 
-#about, #projects, #contact {
-    text-decoration: none;
-    color: black;
-    background-color: #9DBBAE;    
-}
-#about:hover, 
-#projects:hover, 
-#contact:hover {
-    color: white;
-}
-.fab:hover,
-.fa-envelope-square:hover {
-    color: white;
-}
 ul {
     list-style: none;
     background-color: #9DBBAE;
 }
+
 li {
     background-color: #9DBBAE;
     text-decoration: none;
     font-size: x-large;
     padding-bottom: 15px;
 }
+
 .sidebar {
     top: 0;
     bottom: 0;
     width: 250px;
     font-size: 14px;
     background-color: #9DBBAE;
-    scrollbar-width: none;
 }
+
 .name_header {
     background-color: #9DBBAE;
     padding-left: 25px;
     padding-top: 20px;
     font-size: large;
 }
-.main_content {
-}
-.intro {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xxx-large;
-    padding-top: 40px;
-}
+
 .main_image {
     padding-left: 22px;
 }
+
 #portrait {
     width: 200px;
     border-width: 5px, 5px;
     border-color: black;
     border-style: solid;
 }
-.main_content_text {
-    font-size: large;
-}
-#linkedin, #github, #email {
-    background-color: #9DBBAE;
-}
+
 figcaption {
     margin-left: 2px;
     font-size: x-small;
     padding-top: 1px;
     background-color: #9DBBAE;
 }
-.fa-chevron-down {
-    font-size: 4rem;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    justify-self: center;
-    color: darkslategray;
+
+.intro {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xxx-large;
+    padding-top: 40px;
 }
+
+.about {
+    font-size: large;
+}
+
+#about, #projects, #contact, #skills {
+    text-decoration: none;
+    color: black;
+    background-color: #9DBBAE;    
+}
+
+#about:hover, 
+#projects:hover, 
+#contact:hover,
+#skills:hover {
+    color: white;
+}
+
+#linkedin, #github, #email {
+    background-color: #9DBBAE;
+    color: indigo;
+}
+
+#projects_header,
+#contact_header,
+#skills_header {
+    background-color: #90b3a3;
+    font-size: xx-large;
+}
+
+#virtual_pet > p,
+#pet_shelter > p,
+#fortune > p { 
+    font-size: medium;
+}
+
+#shelter_pic,
+#vpet_pic,
+#fortune_pic {
+    max-width: 500px;
+}
+
 #shelter_link,
 #pet_link,
 #fortune_link {
@@ -89,42 +110,37 @@ figcaption {
     color: black;
     font-weight: bolder;
 }
+
 #shelter_link:hover,
 #pet_link:hover,
-#fortune_link:hover {
-    color: floralwhite;
+#fortune_link:hover,
+#email_link:hover,
+#linkedin_link:hover,
+#github_link:hover {
+    color: slategray;
 }
-#projects_header,
-#contact_header {
-    background-color: #90b3a3;
-    font-size: xx-large;
+
+#email_link,
+#linkedin_link,
+#github_link {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
-#virtual_pet > p,
-#pet_shelter > p,
-#fortune > p { 
-    font-size: medium;
+
+.fab:hover,
+.fa-envelope-square:hover {
+    color: white;
 }
-#shelter_pic,
-#vpet_pic,
-#fortune_pic {
-    max-width: 500px;
+
+.fa-chevron-down {
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    justify-self: center;
+    color: darkslategray;
 }
-input[type=text] {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
-input[type=textarea] {
-    width: 50%;
-    height: 100px;
-    margin: 8px 0;
-    padding: 12px 20px;
-    box-sizing: border-box;
-}
-input[type=submit] {
-    width: 100px;
-}
+
 footer {
     font-family: 'Times New Roman', Times, serif;
 }
