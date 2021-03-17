@@ -98,7 +98,10 @@ figcaption {
 
 #shelter_pic,
 #vpet_pic,
-#fortune_pic {
+#stanza_pic1,
+#stanza_pic2,
+#donut_pic1,
+#donut_pic2 {
     max-width: 500px;
 }
 
