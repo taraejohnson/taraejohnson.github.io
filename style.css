@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color:floralwhite;
+    margin: 0px;
+}
+#root {
+    max-width: 1200px;
+}
