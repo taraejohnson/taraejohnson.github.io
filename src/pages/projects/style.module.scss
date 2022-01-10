@@ -1,0 +1,48 @@
+.projects__main {
+  padding: 10vw 10vw;
+}
+.projects__h1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.single__project__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 1rem;
+  margin-bottom: 10vh;
+}
+.project__text,
+.project__link {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  font-size: larger;
+}
+.project__stack {
+  color: #5a2a27;
+  margin-top: 0px;
+}
+.project__title {
+  font-size: xx-large;
+  font-family: 'Libre Baskerville', 'Times New Roman', serif;
+  margin: 0px;
+}
+.donut__img__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.donut__photo {
+  max-width: 1000px;
+  width: 100%;
+}
+.projects__main a {
+  color: #4E6151;
+  font-weight: bold;
+}
+a:hover {
+  color:rosybrown;
+}

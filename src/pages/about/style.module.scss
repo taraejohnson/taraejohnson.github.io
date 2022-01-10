@@ -1,0 +1,31 @@
+body {
+    background-color:floralwhite;
+}
+.about__content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+}
+.about__main {
+    padding: 10vw;
+}
+.about__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Monsterrat';
+}
+.about__text p {
+    font-size: large;
+    text-align: justify;
+}
+.about__main a {
+    color: #4E6151;
+    font-weight: bold;
+}
+.lockup__image {
+    width: 400px;
+}
+.lockup__caption {
+    font-size: 11px;
+}

@@ -1,0 +1,23 @@
+.contact__main {
+    padding: 10vw;
+    width: 80vw;
+}
+.contact__content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+}
+.contact__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Monsterrat';
+}
+.contact__text p {
+    font-size: large;
+    text-align: justify;
+}
+.contact__main a {
+    color: #4E6151;
+    font-weight: bold;
+}
